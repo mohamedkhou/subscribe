@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+.content{
+    background-color: white;
+    width: 400px;
+    margin-left: 33%;
+    margin-top: 120px;
+    box-shadow: -3px 3px 14px 1px rgba(0,0,0,0.75);;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+.illustration{
+    width: 400px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px
+}
+.container{
+    height: 330px;
+   
+    text-align: center;
+}
+.title1 h1{
+    margin: 10px;
+    font-size: 20px ;
+    
+   
+}
+.par{
+    width: 300px    ;
+margin:auto;
+margin-top: 20px;
+padding-bottom: 20px;
+color: grey;
+}
+
+.annual{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #edf1fa;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 5px;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.text{
+    width: 55%;
+    text-align: left;
+}
+.text h2{
+font-size: 17px;
+}
+.text p{
+    color: grey;
+}
+.change p{
+    text-decoration: underline solid;
+    color: #7E7DBE;
+}
+.process{
+    background-color: #372AE1;
+    margin: 20px 10% 20px 10%;
+    padding: 10px 0 10px 0;
+    color: white;
+    border-radius: 5px ;
+}
+.process p{
+    font-size: 15px;
+    
+}
+.cancel{
+    
+}
+.cancel p{
+    font-size: 15px;
+}
+
